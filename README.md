@@ -1,3 +1,5 @@
+This fork just installs `lsof` on top of https://github.com/mujo-code/puppeteer-headful as I need to use `kill $(lsof -t -i:3001)` to kill the server after puppeteer run.
+
 # Puppeteer Headful
 
 [Github Action](https://github.com/features/actions) for [Puppeteer](https://github.com/GoogleChrome/puppeteer) that can be ran "headful" or not headless.
