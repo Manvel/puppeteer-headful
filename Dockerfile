@@ -20,6 +20,7 @@ RUN  apt-get update \
      && apt-get update \
      && apt-get install -y google-chrome-stable --no-install-recommends \
      && rm -rf /var/lib/apt/lists/*
+     && apt-get install -y lsof
 
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
